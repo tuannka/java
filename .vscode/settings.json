@@ -1,0 +1,34 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "master",
+            "username": "sa",
+            "password": "Abcd@1234",
+            "database": "master"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "ProductManagement",
+            "database": "ProductManagement",
+            "username": "sa",
+            "password": "Abcd@1234"
+        }
+    ]
+}
